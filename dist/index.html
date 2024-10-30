@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <meta name="description" content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly.">
-    <meta property="og:title" content="Forkify Recipe App | Alamin">
-    <meta property="og:description" content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/CodePapa360/Forkify-Recipe-App/main/src/img/forkify-alamin-screenshot.png">
-    <meta property="og:url" content="https://forkify-alamin.netlify.app/">
-    <meta name="author" content="Alamin | codpapa360">
-    <meta name="keywords" content="forkify, jonasschmedtman, jonas schmedtman, alamin, codepapa360, recipe, cooking, food, meal, cuisine, ingredients, dish, kitchen, culinary, nutrition, healthy, diet, baking, vegetarian, vegan, gluten-free, dairy-free, desserts">
+    <meta
+      name="description"
+      content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly."
+    />
+    <meta property="og:title" content="Forkify Recipe App | Alamin" />
+    <meta
+      property="og:description"
+      content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/CodeWithAlamin/Forkify-Recipe-App/main/src/img/forkify-alamin-screenshot.png"
+    />
+    <meta property="og:url" content="https://forkify-alamin.netlify.app/" />
+    <meta name="author" content="Alamin | codpapa360" />
+    <meta
+      name="keywords"
+      content="forkify, jonasschmedtman, jonas schmedtman, alamin, CodeWithAlamin, recipe, cooking, food, meal, cuisine, ingredients, dish, kitchen, culinary, nutrition, healthy, diet, baking, vegetarian, vegan, gluten-free, dairy-free, desserts"
+    />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Forkify Recipe App | Alamin">
-    <meta name="twitter:site" content="@https://forkify-alamin.netlify.app/">
-    <meta name="twitter:description" content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/CodePapa360/Forkify-Recipe-App/main/src/img/forkify-alamin-screenshot.png">
-    <meta name="twitter:image:alt" content="Forkify recipe app screenshot">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Forkify Recipe App | Alamin" />
+    <meta name="twitter:site" content="@https://forkify-alamin.netlify.app/" />
+    <meta
+      name="twitter:description"
+      content="Built with JavaScript and API. Made it responsive and added some new features to make it even more user-friendly."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/CodeWithAlamin/Forkify-Recipe-App/main/src/img/forkify-alamin-screenshot.png"
+    />
+    <meta name="twitter:image:alt" content="Forkify recipe app screenshot" />
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.8b2f57bf.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/favicon.8b2f57bf.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="/index.f7626f62.css">
+    <link rel="stylesheet" href="/index.f7626f62.css" />
     <script defer="" src="/index.e37f48ea.js"></script>
 
     <title>forkify // Search over 1,000,000 recipes</title>
@@ -32,10 +57,14 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="/logo.726d37a8.png" alt="Logo" class="header__logo">
+        <img src="/logo.726d37a8.png" alt="Logo" class="header__logo" />
 
         <form class="search">
-          <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search over 1,000,000 recipes..."
+          />
           <button class="btn search__btn">
             <svg class="search__icon">
               <use href="/icons.21bad73c.svg#icon-search"></use>
@@ -141,9 +170,19 @@
 
         <p class="copyright">
           &copy;
-          <a class="twitter-link" target="_blank" href="https://twitter.com/codepapa360">Alamin</a>
+          <a
+            class="twitter-link"
+            target="_blank"
+            href="https://twitter.com/CodeWithAlamin"
+            >Alamin</a
+          >
           and
-          <a class="twitter-link" target="_blank" href="https://twitter.com/jonasschmedtman">Jonas Schmedtmann</a>. Use for learning or your portfolio. Don't use to teach.
+          <a
+            class="twitter-link"
+            target="_blank"
+            href="https://twitter.com/jonasschmedtman"
+            >Jonas Schmedtmann</a
+          >. Use for learning or your portfolio. Don't use to teach.
         </p>
       </div>
 
@@ -277,33 +316,88 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input placeholder="Example: Veggie Pizza" required="" name="title" type="text">
+          <input
+            placeholder="Example: Veggie Pizza"
+            required=""
+            name="title"
+            type="text"
+          />
           <label>URL</label>
-          <input placeholder="Source URL" required="" name="sourceUrl" type="text">
+          <input
+            placeholder="Source URL"
+            required=""
+            name="sourceUrl"
+            type="text"
+          />
           <label>Image URL</label>
-          <input placeholder="Image sourse URL" required="" name="image" type="text">
+          <input
+            placeholder="Image sourse URL"
+            required=""
+            name="image"
+            type="text"
+          />
           <label>Publisher</label>
-          <input placeholder="Publisher's name" required="" name="publisher" type="text">
+          <input
+            placeholder="Publisher's name"
+            required=""
+            name="publisher"
+            type="text"
+          />
           <label>Prep time</label>
-          <input placeholder="Example: 30 (in minutes)" required="" name="cookingTime" type="number">
+          <input
+            placeholder="Example: 30 (in minutes)"
+            required=""
+            name="cookingTime"
+            type="number"
+          />
           <label>Servings</label>
-          <input placeholder="Example: 4" required="" name="servings" type="number">
+          <input
+            placeholder="Example: 4"
+            required=""
+            name="servings"
+            type="number"
+          />
         </div>
 
         <div class="upload__column">
           <h3 class="upload__heading">Ingredients</h3>
           <label>Ingredient 1</label>
-          <input type="text" required="" name="ingredient-1" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            required=""
+            name="ingredient-1"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
           <label>Ingredient 2</label>
-          <input type="text" name="ingredient-2" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            name="ingredient-2"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
           <label>Ingredient 3</label>
-          <input type="text" name="ingredient-3" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            name="ingredient-3"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
           <label>Ingredient 4</label>
-          <input type="text" name="ingredient-4" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            name="ingredient-4"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
           <label>Ingredient 5</label>
-          <input type="text" name="ingredient-5" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            name="ingredient-5"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
           <label>Ingredient 6</label>
-          <input type="text" name="ingredient-6" placeholder="Format: 'Quantity,Unit,Description'">
+          <input
+            type="text"
+            name="ingredient-6"
+            placeholder="Format: 'Quantity,Unit,Description'"
+          />
         </div>
 
         <button class="btn upload__btn">

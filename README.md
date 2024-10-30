@@ -8,17 +8,17 @@
   <a href="https://forkify-alamin.netlify.app/" target="_blank">
     <img alt="Demo" src="https://img.shields.io/badge/demo-online-green.svg" />
   </a>
-  <a href="https://github.com/CodePapa360/Forkify-Recipe-App#readme" target="_blank">
+  <a href="https://github.com/CodeWithAlamin/Forkify-Recipe-App#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/CodePapa360/Forkify-Recipe-App/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/CodeWithAlamin/Forkify-Recipe-App/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
   </a>
-  <a href="https://github.com/CodePapa360/Forkify-Recipe-App/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/CodeWithAlamin/Forkify-Recipe-App/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/CodePapa360" target="_blank">
-    <img alt="Twitter: CodePapa360" src="https://img.shields.io/twitter/follow/CodePapa360.svg?style=social" />
+  <a href="https://twitter.com/CodeWithAlamin" target="_blank">
+    <img alt="Twitter: CodeWithAlamin" src="https://img.shields.io/twitter/follow/CodeWithAlamin.svg?style=social" />
   </a>
 </p>
 
@@ -67,7 +67,7 @@ Forkify is a recipe search and saving app, built with HTML5, CSS3, and JavaScrip
 - Clone this repo:
 
 ```sh
-git clone https://github.com/CodePapa360/Forkify-Recipe-App.git
+git clone https://github.com/CodeWithAlamin/Forkify-Recipe-App.git
 ```
 
 - Install dependencies:
@@ -86,10 +86,10 @@ npm start
 
 <b>👤 Alamin</b>
 
-- LinkedIn - [@CodePapa360](https://www.linkedin.com/in/codepapa360)
-- Twitter - [@CodePapa360](https://www.twitter.com/CodePapa360)
-- Frontend Mentor - [@CodePapa360](https://www.frontendmentor.io/profile/CodePapa360)
-- Github: [@CodePapa360](https://github.com/codepapa360)
+- LinkedIn - [@CodeWithAlamin](https://www.linkedin.com/in/CodeWithAlamin)
+- Twitter - [@CodeWithAlamin](https://www.twitter.com/CodeWithAlamin)
+- Frontend Mentor - [@CodeWithAlamin](https://www.frontendmentor.io/profile/CodeWithAlamin)
+- Github: [@CodeWithAlamin](https://github.com/CodeWithAlamin)
 
 Feel free to contact me with any questions or feedback!
 
@@ -105,4 +105,4 @@ Give a ⭐️ if you liked this project!
 
 ## License
 
-This project is [MIT](https://github.com/codepapa360/Forkify-Recipe-App/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/CodeWithAlamin/Forkify-Recipe-App/blob/master/LICENSE) licensed.
